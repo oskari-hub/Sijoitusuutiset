@@ -1,0 +1,39 @@
+name: Päivittäinen uutisanalyysi
+
+on:
+  schedule:
+    # Ajetaan joka aamu klo 6:00 UTC (= 8:00 Suomen aikaa kesällä, 9:00 talvella)
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+    # Mahdollistaa myös manuaalisen ajamisen GitHubin käyttöliittymästä
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Lataa koodi
+        uses: actions/checkout@v4
+
+      - name: Asenna Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Asenna riippuvuudet
+        run: pip install -r requirements.txt
+
+      - name: Aja uutisanalyysi
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python rss_analyzer.py
+
+      - name: Tallenna feed.xml GitHubiin
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add feed.xml
+          git diff --staged --quiet || git commit -m "Päivitetty uutissyöte $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
