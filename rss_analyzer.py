@@ -207,54 +207,64 @@ def build_rss_feed(articles):
 # PÄÄOHJELMA
 # ─────────────────────────────────────────
 def main():
-print(f"Aloitetaan ajoa {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}")
-seen_urls = set()
-relevant_articles = []
-for feed_url in RSS_FEEDS:
-print(f"\nHaetaan: {feed_url}")
-try:
-feed = feedparser.parse(feed_url)
-except Exception as e:
-print(f" Virhe haettaessa syötettä: {e}")
-continue
-language = detect_language(feed_url)
-for entry in feed.entries:
-url = entry.get("link", "")
-title = clean_html(entry.get("title", ""))
-content = clean_html(entry.get("summary", entry.get("description", "")))
-# Ohita jos ei otsikkoa tai URL:ia
-if not title or not url:
-continue
-# Ohita duplikaatit
-if url in seen_urls:
-continue
-seen_urls.add(url)
-# Ohita yli 24h vanhat
-age = get_article_age_hours(entry)
-if age > 24:
-continue
-print(f" Analysoidaan: {title[:70]}...")
-try:
-response = analyze_with_claude(title, content, language, url)
-except Exception as e:
-print(f" Claude API -virhe: {e}")
-time.sleep(5)
-continue
-parsed = parse_claude_response(response)
-if parsed:
-relevant_articles.append(parsed)
-print(f" → Relevantti: {parsed.get('YHTIÖ')} | {parsed.get('SÄVY')}")
-else:
-print(" → SKIP")
-# Pieni viive API-kutsujen välillä
-time.sleep(1)
-print(f"\nLöydettiin {len(relevant_articles)} relevanttia artikkelia.")
-# Rakennetaan ja tallennetaan RSS-tiedosto
-feed_xml = build_rss_feed(relevant_articles)
-output_path = os.path.join(os.path.dirname(__file__), "feed.xml")
-with open(output_path, "w", encoding="utf-8") as f:
-f.write('<?xml version="1.0" encoding="UTF-8"?>\n')
-f.write(feed_xml)
-print(f"RSS-tiedosto tallennettu: {output_path}")
+    print(f"Aloitetaan ajoa {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}")
+    seen_urls = set()
+    relevant_articles = []
+
+    for feed_url in RSS_FEEDS:
+        print(f"\nHaetaan: {feed_url}")
+        try:
+            feed = feedparser.parse(feed_url)
+        except Exception as e:
+            print(f"  Virhe haettaessa syötettä: {e}")
+            continue
+
+        language = detect_language(feed_url)
+
+        for entry in feed.entries:
+            url = entry.get("link", "")
+            title = clean_html(entry.get("title", ""))
+            content = clean_html(entry.get("summary", entry.get("description", "")))
+
+            if not title or not url:
+                continue
+
+            if url in seen_urls:
+                continue
+            seen_urls.add(url)
+
+            age = get_article_age_hours(entry)
+            if age > 24:
+                continue
+
+            print(f"  Analysoidaan: {title[:70]}...")
+
+            try:
+                response = analyze_with_claude(title, content, language, url)
+            except Exception as e:
+                print(f"    Claude API -virhe: {e}")
+                time.sleep(5)
+                continue
+
+            parsed = parse_claude_response(response)
+            if parsed:
+                relevant_articles.append(parsed)
+                print(f"    → Relevantti: {parsed.get('YHTIÖ')} | {parsed.get('SÄVY')}")
+            else:
+                print("    → SKIP")
+
+            time.sleep(1)
+
+    print(f"\nLöydettiin {len(relevant_articles)} relevanttia artikkelia.")
+
+    feed_xml = build_rss_feed(relevant_articles)
+    output_path = os.path.join(os.path.dirname(__file__), "feed.xml")
+    with open(output_path, "w", encoding="utf-8") as f:
+        f.write('<?xml version="1.0" encoding="UTF-8"?>\n')
+        f.write(feed_xml)
+
+    print(f"RSS-tiedosto tallennettu: {output_path}")
+
+
 if __name__ == "__main__":
-main()
+    main()
