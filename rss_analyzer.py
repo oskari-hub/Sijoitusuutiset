@@ -11,17 +11,26 @@ from xml.dom import minidom
 # RSS-SYÖTTEET
 # ─────────────────────────────────────────
 RSS_FEEDS = [
-"https://www.nature.com/npjdigitalmed.rss",
-"https://endpts.com/feed",
-"https://statnews.com/feed",
-"https://feeds.kauppalehti.fi/rss/topic/osakkeet",
-"https://feeds.kauppalehti.fi/rss/main",
-"https://di.se/rss",
-"https://borsen.dk/rss",
-"https://news.google.com/rss/search?q=Canatu+OR+ChemoMetec+OR+Nanexa+OR+Sectra+OR+Stille+
-"https://news.google.com/rss/search?q=Canatu+OR+ChemoMetec+OR+Nanexa+OR+Sectra+OR+Stille+
-"https://news.google.com/rss/search?q=Canatu+OR+ChemoMetec+OR+Nanexa+OR+Sectra+OR+Stille+
+    "https://www.nature.com/npjdigitalmed.rss",
+    "https://endpts.com/feed",
+    "https://statnews.com/feed",
+    "https://feeds.kauppalehti.fi/rss/topic/osakkeet",
+    "https://feeds.kauppalehti.fi/rss/main",
+    "https://di.se/rss",
+    "https://borsen.dk/rss",
 ]
+
+GOOGLE_NEWS_QUERY = (
+    "Canatu+OR+ChemoMetec+OR+Nanexa+OR+Sectra"
+    "+OR+Stille+OR+%22Detection+Technology%22+OR+Aiforia"
+)
+
+RSS_FEEDS += [
+    f"https://news.google.com/rss/search?q={GOOGLE_NEWS_QUERY}&hl=sv&gl=SE&ceid=SE:sv",
+    f"https://news.google.com/rss/search?q={GOOGLE_NEWS_QUERY}&hl=da&gl=DK&ceid=DK:da",
+    f"https://news.google.com/rss/search?q={GOOGLE_NEWS_QUERY}&hl=fi&gl=FI&ceid=FI:fi",
+]
+
 # ─────────────────────────────────────────
 # CLAUDE-PROMPTI
 # ─────────────────────────────────────────
