@@ -114,84 +114,95 @@ def get_article_age_hours(entry):
     return 999
 
 def clean_html(text):
-"""Poistaa HTML-tagit tekstistä."""
-if not text:
-return ""
-return re.sub(r"<[^>]+>", "", text).strip()
+    """Poistaa HTML-tagit tekstistä."""
+    if not text:
+        return ""
+    return re.sub(r"<[^>]+>", "", text).strip()
+
+
 def detect_language(feed_url):
-"""Arvailee kielen syöte-URL:n perusteella."""
-if "hl=fi" in feed_url or "kauppalehti" in feed_url:
-return "fi"
-if "hl=sv" in feed_url or "di.se" in feed_url:
-return "sv"
-if "hl=da" in feed_url or "borsen.dk" in feed_url:
-return "da"
-return "en"
+    """Arvailee kielen syöte-URL:n perusteella."""
+    if "hl=fi" in feed_url or "kauppalehti" in feed_url:
+        return "fi"
+    if "hl=sv" in feed_url or "di.se" in feed_url:
+        return "sv"
+    if "hl=da" in feed_url or "borsen.dk" in feed_url:
+        return "da"
+    return "en"
+
+
 def analyze_with_claude(title, content, language, url):
-"""Lähettää uutisen Claudelle analysoitavaksi. Palauttaa vastauksen tekstinä."""
-prompt = PROMPT_TEMPLATE.format(
-title=title,
-content=content[:2000], # rajataan pituus
-language=language,
-url=url,
-)
-response = requests.post(
-"https://api.anthropic.com/v1/messages",
-headers={
-"x-api-key": os.environ["ANTHROPIC_API_KEY"],
-"anthropic-version": "2023-06-01",
-"content-type": "application/json",
-},
-json={
-"model": "claude-haiku-4-5-20251001",
-"max_tokens": 500,
-"messages": [{"role": "user", "content": prompt}],
-},
-timeout=30,
-)
-response.raise_for_status()
-return response.json()["content"][0]["text"].strip()
+    """Lähettää uutisen Claudelle analysoitavaksi. Palauttaa vastauksen tekstinä."""
+    prompt = PROMPT_TEMPLATE.format(
+        title=title,
+        content=content[:2000],
+        language=language,
+        url=url,
+    )
+    response = requests.post(
+        "https://api.anthropic.com/v1/messages",
+        headers={
+            "x-api-key": os.environ["ANTHROPIC_API_KEY"],
+            "anthropic-version": "2023-06-01",
+            "content-type": "application/json",
+        },
+        json={
+            "model": "claude-haiku-4-5-20251001",
+            "max_tokens": 500,
+            "messages": [{"role": "user", "content": prompt}],
+        },
+        timeout=30,
+    )
+    response.raise_for_status()
+    return response.json()["content"][0]["text"].strip()
+
+
 def parse_claude_response(text):
-"""Poimii kentät Clauden vastauksesta. Palauttaa dict tai None jos SKIP."""
-if text.strip().upper().startswith("SKIP"):
-return None
-fields = {}
-for key in ["YHTIÖ", "TOIMIALA", "OTSIKKO", "TIIVISTELMÄ", "SÄVY", "LINKKI"]:
-match = re.search(rf"{key}:\s*(.+?)(?=\n[A-ZÄÖÅ]{{2,}}:|$)", text, re.DOTALL)
-if match:
-fields[key] = match.group(1).strip()
-if "OTSIKKO" not in fields or "TIIVISTELMÄ" not in fields:
-return None
-return fields
+    """Poimii kentät Clauden vastauksesta. Palauttaa dict tai None jos SKIP."""
+    if text.strip().upper().startswith("SKIP"):
+        return None
+    fields = {}
+    for key in ["YHTIÖ", "TOIMIALA", "OTSIKKO", "TIIVISTELMÄ", "SÄVY", "LINKKI"]:
+        match = re.search(rf"{key}:\s*(.+?)(?=\n[A-ZÄÖÅ]{{2,}}:|$)", text, re.DOTALL)
+        if match:
+            fields[key] = match.group(1).strip()
+    if "OTSIKKO" not in fields or "TIIVISTELMÄ" not in fields:
+        return None
+    return fields
+
+
 def build_rss_feed(articles):
-"""Rakentaa RSS-syötteen Clauden tuottamista artikkeleista."""
-rss = Element("rss", version="2.0")
-channel = SubElement(rss, "channel")
-SubElement(channel, "title").text = "Sijoitusuutiset – Claude-analyysi"
-SubElement(channel, "link").text = "https://github.com"
-SubElement(channel, "description").text = (
-"Automaattisesti suodatetut ja analysoidut sijoitusuutiset"
-)
-SubElement(channel, "language").text = "fi"
-SubElement(channel, "lastBuildDate").text = datetime.now(timezone.utc).strftime(
-"%a, %d %b %Y %H:%M:%S +0000"
-)
-for article in articles:
-item = SubElement(channel, "item")
-SubElement(item, "title").text = article.get("OTSIKKO", "Otsikko puuttuu")
-SubElement(item, "link").text = article.get("LINKKI", "")
-description = (
-f"<b>Yhtiö:</b> {article.get('YHTIÖ', '')}<br/>"
-f"<b>Toimiala:</b> {article.get('TOIMIALA', '')}<br/>"
-f"<b>Sävy:</b> {article.get('SÄVY', '')}<br/><br/>"
-f"{article.get('TIIVISTELMÄ', '')}"
-)
-SubElement(item, "description").text = description
-SubElement(item, "guid").text = article.get("LINKKI", "")
-xml_str = minidom.parseString(tostring(rss, encoding="unicode")).toprettyxml(indent=" ")
-# Poistetaan ylimääräinen XML-deklaraatio minidomin lisäämänä
-lines = xml_str.split("\n")
-return "\n".join(lines[1:]) if lines[0].startswith("<?xml") else xml_str
+    """Rakentaa RSS-syötteen Clauden tuottamista artikkeleista."""
+    rss = Element("rss", version="2.0")
+    channel = SubElement(rss, "channel")
+
+    SubElement(channel, "title").text = "Sijoitusuutiset – Claude-analyysi"
+    SubElement(channel, "link").text = "https://github.com"
+    SubElement(channel, "description").text = (
+        "Automaattisesti suodatetut ja analysoidut sijoitusuutiset"
+    )
+    SubElement(channel, "language").text = "fi"
+    SubElement(channel, "lastBuildDate").text = datetime.now(timezone.utc).strftime(
+        "%a, %d %b %Y %H:%M:%S +0000"
+    )
+
+    for article in articles:
+        item = SubElement(channel, "item")
+        SubElement(item, "title").text = article.get("OTSIKKO", "Otsikko puuttuu")
+        SubElement(item, "link").text = article.get("LINKKI", "")
+        description = (
+            f"<b>Yhtiö:</b> {article.get('YHTIÖ', '')}<br/>"
+            f"<b>Toimiala:</b> {article.get('TOIMIALA', '')}<br/>"
+            f"<b>Sävy:</b> {article.get('SÄVY', '')}<br/><br/>"
+            f"{article.get('TIIVISTELMÄ', '')}"
+        )
+        SubElement(item, "description").text = description
+        SubElement(item, "guid").text = article.get("LINKKI", "")
+
+    xml_str = minidom.parseString(tostring(rss, encoding="unicode")).toprettyxml(indent="  ")
+    lines = xml_str.split("\n")
+    return "\n".join(lines[1:]) if lines[0].startswith("<?xml") else xml_str
+
 # ─────────────────────────────────────────
 # PÄÄOHJELMA
 # ─────────────────────────────────────────
