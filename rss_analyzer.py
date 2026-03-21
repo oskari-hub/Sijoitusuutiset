@@ -99,19 +99,20 @@ LINKKI: [alkuperäinen URL]"""
 # APUFUNKTIOT
 # ─────────────────────────────────────────
 def get_article_age_hours(entry):
-"""Palauttaa artikkelin iän tunteina. Palauttaa 999 jos aikaa ei löydy."""
-for field in ["published", "updated"]:
-date_str = entry.get(field)
-if date_str:
-try:
-pub_time = parsedate_to_datetime(date_str)
-if pub_time.tzinfo is None:
-pub_time = pub_time.replace(tzinfo=timezone.utc)
-age = datetime.now(timezone.utc) - pub_time
-return age.total_seconds() / 3600
-except Exception:
-pass
-return 999
+    """Palauttaa artikkelin iän tunteina. Palauttaa 999 jos aikaa ei löydy."""
+    for field in ["published", "updated"]:
+        date_str = entry.get(field)
+        if date_str:
+            try:
+                pub_time = parsedate_to_datetime(date_str)
+                if pub_time.tzinfo is None:
+                    pub_time = pub_time.replace(tzinfo=timezone.utc)
+                age = datetime.now(timezone.utc) - pub_time
+                return age.total_seconds() / 3600
+            except Exception:
+                pass
+    return 999
+
 def clean_html(text):
 """Poistaa HTML-tagit tekstistä."""
 if not text:
