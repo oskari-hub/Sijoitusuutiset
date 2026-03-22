@@ -68,12 +68,7 @@ syväoppimismallit histologisten kudosnäytteiden analyysiin,
 tumoreiden luokittelu ja gradeeraus, biomarkkereiden
 kvantifiointi, CE-IVD-merkityt kliiniset AI-sovellukset,
 patologian työnkulkujen automatisointi
-- Fluorenssikuvantamiseen perustuva automatisoitu solunlaskenta
-ja soluelinkelpoisuuden määritys: kasettipohjainen
-näytteenkäsittely, image cytometry, solulaskenta
-nisäkässoluille, CAR-T-soluille, kantasoluille ja
-hyönteissoluille; GMP/21 CFR Part 11 -yhteensopivat
-soluanalyysiratkaisut bioprosessoinnissa ja soluterapiassa
+- Fluorenssikuvantamiseen perustuva automatisoitu solunlaskenta ja soluelinkelpoisuuden määritys: kasettipohjainen näytteenkäsittely, image cytometry, solulaskenta nisäkässoluille, CAR-T-soluille, kantasoluille ja hyönteissoluille; GMP/21 CFR Part 11 -yhteensopivat soluanalyysiratkaisut bioprosessoinnissa ja soluterapiassa; bioprosessoinnin markkinakehitys, soluviljelyn skaalausta koskevat uutiset, ja regulaatiomuutokset jotka vaikuttavat GMP-solulaskentaympäristöön
 - Pitkävaikutteisten injektioiden lääkeaineen vapautumisen
 hallinta: teknologiat jotka hyödyntävät atomitason
 kerrostusta (ALD), nanohiukkasia tai muita menetelmiä
