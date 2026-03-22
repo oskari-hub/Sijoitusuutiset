@@ -18,6 +18,9 @@ RSS_FEEDS = [
     "https://feeds.kauppalehti.fi/rss/main",
     "https://di.se/rss",
     "https://borsen.dk/rss",
+    "https://bioprocessintl.com/feed/",
+    "https://news.google.com/rss/search?q=ChemoMetec+OR+image+cytometry+OR+cell+viability+OR+bioreactor&hl=en&gl=US&ceid=US:en"
+    
 ]
 
 GOOGLE_NEWS_QUERY = (
