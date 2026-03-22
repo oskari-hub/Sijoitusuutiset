@@ -2,8 +2,8 @@ name: Päivittäinen uutisanalyysi
 
 on:
   schedule:
-    # Ajetaan joka aamu klo 6:00 UTC (= 8:00 Suomen aikaa kesällä, 9:00 talvella)
-    - cron: "0 6 * * *"
+    # Ajetaan joka aamu klo 3:00 UTC
+    - cron: "0 3 * * *"
   workflow_dispatch:
     # Mahdollistaa myös manuaalisen ajamisen GitHubin käyttöliittymästä
 
