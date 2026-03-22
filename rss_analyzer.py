@@ -20,7 +20,11 @@ RSS_FEEDS = [
     "https://borsen.dk/rss",
     "https://bioprocessintl.com/feed/",
     "https://news.google.com/rss/search?q=ChemoMetec+OR+image+cytometry+OR+cell+viability+OR+bioreactor&hl=en&gl=US&ceid=US:en",
-    "https://news.google.com/rss/search?q=Nanoform+OR+%22drug+nanoparticle%22+OR+%22CESS+technology%22+OR+%22bioavailability+enhancement%22+OR+nanosuspension&hl=en&gl=US&ceid=US:en"
+    "https://news.google.com/rss/search?q=Nanoform+OR+%22drug+nanoparticle%22+OR+%22CESS+technology%22+OR+%22bioavailability+enhancement%22+OR+nanosuspension&hl=en&gl=US&ceid=US:en",
+    "https://diagnosticimaging.com/rss",
+    "https://news.google.com/rss/search?q=Aiforia+OR+%22digital+pathology+AI%22+OR+%22computational+pathology%22&hl=en&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=Sectra+OR+%22PACS+radiology%22+OR+%22enterprise+imaging%22&hl=en&gl=US&ceid=US:en"
+    
 ]
 
 GOOGLE_NEWS_QUERY = (
