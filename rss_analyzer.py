@@ -19,8 +19,8 @@ RSS_FEEDS = [
     "https://di.se/rss",
     "https://borsen.dk/rss",
     "https://bioprocessintl.com/feed/",
-    "https://news.google.com/rss/search?q=ChemoMetec+OR+image+cytometry+OR+cell+viability+OR+bioreactor&hl=en&gl=US&ceid=US:en"
-    
+    "https://news.google.com/rss/search?q=ChemoMetec+OR+image+cytometry+OR+cell+viability+OR+bioreactor&hl=en&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=Nanoform+OR+%22drug+nanoparticle%22+OR+%22CESS+technology%22+OR+%22bioavailability+enhancement%22+OR+nanosuspension&hl=en&gl=US&ceid=US:en"
 ]
 
 GOOGLE_NEWS_QUERY = (
