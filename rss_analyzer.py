@@ -94,9 +94,12 @@ tullisovellukset) ja teollisuussovelluksiin
 YHTIÖ: [yhtiön nimi tai "Toimiala" jos yleinen alan uutinen]
 TOIMIALA: [mikä yllä listatuista toimialoista on kyseessä]
 OTSIKKO: [käännetty otsikko suomeksi]
+LÄHDE: [lehden nimi ja alkuperäiskieli]
 TIIVISTELMÄ: [2-3 lausetta suomeksi, olennaisin tieto]
 SÄVY: [Positiivinen / Negatiivinen / Neutraali]
-LINKKI: [alkuperäinen URL]"""
+LINKKI: [alkuperäinen URL]
+
+"""
 # ─────────────────────────────────────────
 # APUFUNKTIOT
 # ─────────────────────────────────────────
