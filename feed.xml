@@ -5,11 +5,11 @@
     <link>https://github.com</link>
     <description>Automaattisesti suodatetut ja analysoidut sijoitusuutiset</description>
     <language>fi</language>
-    <lastBuildDate>Wed, 25 Mar 2026 06:15:34 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Mar 2026 06:47:07 +0000</lastBuildDate>
     <item>
-      <title>Pystytkö havaitsemaan silmitön röntgenkuvan? Radiologikaan ei pysty.</title>
+      <title>Pystytkö tunnistamaan deepfake-röntgenkuvan? Radiologilta se ei onnistu</title>
       <link>https://www.statnews.com/2026/03/24/radiologists-cant-detect-deepfake-xrays/?utm_campaign=rss</link>
-      <description>&lt;b&gt;Yhtiö:&lt;/b&gt; Aiforia Technologies Oyj&lt;br/&gt;&lt;b&gt;Toimiala:&lt;/b&gt; Lääketieteellinen kuvantaminen ja terveydenhuollon IT; Tekoälyavusteinen digitaalinen patologia&lt;br/&gt;&lt;b&gt;Sävy:&lt;/b&gt; Negatiivinen&lt;br/&gt;&lt;br/&gt;Uutinen käsittelee tutkimustulosten perusteella sitä, kuinka tekoälyn avulla luodut väärennetyt röntgenkuvat voivat johtaa hoitajia harhaan ja häiritä sairaanhoidon toimintaa. Radiologit eivät pysty luotettavasti erottamaan näitä deepfake-kuvia todellisista röntgenkuvista. Aihe on merkittävä erityisesti kliinisiin kuvantamistyönkulkuihin integroitujen tekoälyratkaisujen kehittäjille.</description>
+      <description>&lt;b&gt;Yhtiö:&lt;/b&gt; Aiforia Technologies Oyj&lt;br/&gt;&lt;b&gt;Toimiala:&lt;/b&gt; Lääketieteellinen kuvantaminen ja terveydenhuollon IT: tekoälyn integrointi kliinisiin kuvantamistyönkulkuihin&lt;br/&gt;&lt;b&gt;Sävy:&lt;/b&gt; Negatiivinen&lt;br/&gt;&lt;br/&gt;Uutinen käsittelee tutkimustulosten mukaan tekoälyn tuottamien väärennösten (deepfake) kykyä harhaanjohtaa radiologeja röntgenkuvissa. Tutkimus nostaa esiin huolestuttavan haavoittuvuuden lääketieteellisen kuvantamisen turvallisuudessa ja korostaa tarvetta kehittää kuvien autenttisuuden varmistamismenetelmiä. Tämä liittyy tekoälyn integraatioon kliinisiin kuvantamistyönkulkuihin ja kuva-analyysin luotettavuuteen.</description>
       <guid>https://www.statnews.com/2026/03/24/radiologists-cant-detect-deepfake-xrays/?utm_campaign=rss</guid>
     </item>
   </channel>
