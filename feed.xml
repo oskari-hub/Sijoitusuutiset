@@ -5,18 +5,12 @@
     <link>https://github.com</link>
     <description>Automaattisesti suodatetut ja analysoidut sijoitusuutiset</description>
     <language>fi</language>
-    <lastBuildDate>Tue, 24 Mar 2026 06:47:28 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Mar 2026 06:15:34 +0000</lastBuildDate>
     <item>
-      <title>Mielipide: Tekoälyn nousu terveydenhuollossa syventää lääketieteen luottamusvarausta</title>
-      <link>https://www.statnews.com/2026/03/23/ai-use-distrust-american-medicine/?utm_campaign=rss</link>
-      <description>&lt;b&gt;Yhtiö:&lt;/b&gt; Toimiala&lt;br/&gt;&lt;b&gt;Toimiala:&lt;/b&gt; Tekoälyavusteinen digitaalinen patologia ja lääketieteellinen kuvantaminen terveydenhuollon IT:ssä&lt;br/&gt;&lt;b&gt;Sävy:&lt;/b&gt; Negatiivinen&lt;br/&gt;&lt;br/&gt;Uutinen käsittelee tekoälyn käyttöönottoa terveydenhuollossa ja korostaa, että kehityksen tulisi edetä luottamuksen mukaan, ei sijoitusrahan perusteella. Kirjoitus avaa keskustelun siitä, miten tekoälyn integrointi kliiniseen käytäntöön on herättänyt ammattilaisten ja potilaiden keskuudessa huolta. Artikkelissa pohditaan, kuinka luottamuspula voisi vaarantaa tekoälyteknologioiden hyväksymisen terveydenhuollossa.</description>
-      <guid>https://www.statnews.com/2026/03/23/ai-use-distrust-american-medicine/?utm_campaign=rss</guid>
-    </item>
-    <item>
-      <title>Sectra toimittaa kansallisen koulutusalustan kaikille Norjan terveysalueille</title>
-      <link>https://news.google.com/rss/articles/CBMipgFBVV95cUxNMlVqaGNhR0NsVklIOTNzSHZaaDEyZkpYd1pjVDdsNnVyV1VEMjEwVkdjNy1peDQ4bWFLaW5TRi04bFFoWEZkMmd3Z1ZJaHhlRGtieTFSQ2Q0Mk80cV8ydHhaZl9fMXBUeGFHMjk4U0JqT1h0d2VUaXVFZTZROHZ0T2lHV3VuMGJnQVVtR2d3aGdsS0ptcU9QZzBfX0FQdndNLUZ3Mm9R</link>
-      <description>&lt;b&gt;Yhtiö:&lt;/b&gt; Sectra B&lt;br/&gt;&lt;b&gt;Toimiala:&lt;/b&gt; Lääketieteellinen kuvantaminen ja terveydenhuollon IT: enterprise-kuvantamisratkaisut (PACS, VNA), pilvipohjaiset SaaS-ratkaisut terveydenhuollolle&lt;br/&gt;&lt;b&gt;Sävy:&lt;/b&gt; Positiivinen&lt;br/&gt;&lt;br/&gt;Sectra on saanut sopimuksen kansallisen koulutusalustan toimittamisesta kaikkiin Norjan terveysalueisiin. Sopimus osoittaa yhtiön vahvaa asemaa terveydenhuollon IT-ratkaisujen toimittajana Pohjoismaissa. Tämä on merkittävä kaupallinen sopimus, joka laajentaa Sectran läsnäoloa Norjan terveydenhuoltojärjestelmässä.</description>
-      <guid>https://news.google.com/rss/articles/CBMipgFBVV95cUxNMlVqaGNhR0NsVklIOTNzSHZaaDEyZkpYd1pjVDdsNnVyV1VEMjEwVkdjNy1peDQ4bWFLaW5TRi04bFFoWEZkMmd3Z1ZJaHhlRGtieTFSQ2Q0Mk80cV8ydHhaZl9fMXBUeGFHMjk4U0JqT1h0d2VUaXVFZTZROHZ0T2lHV3VuMGJnQVVtR2d3aGdsS0ptcU9QZzBfX0FQdndNLUZ3Mm9R</guid>
+      <title>Pystytkö havaitsemaan silmitön röntgenkuvan? Radiologikaan ei pysty.</title>
+      <link>https://www.statnews.com/2026/03/24/radiologists-cant-detect-deepfake-xrays/?utm_campaign=rss</link>
+      <description>&lt;b&gt;Yhtiö:&lt;/b&gt; Aiforia Technologies Oyj&lt;br/&gt;&lt;b&gt;Toimiala:&lt;/b&gt; Lääketieteellinen kuvantaminen ja terveydenhuollon IT; Tekoälyavusteinen digitaalinen patologia&lt;br/&gt;&lt;b&gt;Sävy:&lt;/b&gt; Negatiivinen&lt;br/&gt;&lt;br/&gt;Uutinen käsittelee tutkimustulosten perusteella sitä, kuinka tekoälyn avulla luodut väärennetyt röntgenkuvat voivat johtaa hoitajia harhaan ja häiritä sairaanhoidon toimintaa. Radiologit eivät pysty luotettavasti erottamaan näitä deepfake-kuvia todellisista röntgenkuvista. Aihe on merkittävä erityisesti kliinisiin kuvantamistyönkulkuihin integroitujen tekoälyratkaisujen kehittäjille.</description>
+      <guid>https://www.statnews.com/2026/03/24/radiologists-cant-detect-deepfake-xrays/?utm_campaign=rss</guid>
     </item>
   </channel>
 </rss>
