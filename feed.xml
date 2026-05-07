@@ -5,18 +5,12 @@
     <link>https://github.com</link>
     <description>Automaattisesti suodatetut ja analysoidut sijoitusuutiset</description>
     <language>fi</language>
-    <lastBuildDate>Wed, 06 May 2026 06:12:24 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 06:17:46 +0000</lastBuildDate>
     <item>
-      <title>Terveydenhuollon organisaatiot rakentavat yhä enemmän omia tekoälytyökaluja</title>
-      <link>https://endpoints.news/healthcare-organizations-are-increasingly-building-their-own-ai-tools/</link>
-      <description>&lt;b&gt;Yhtiö:&lt;/b&gt; Aiforia Technologies Oyj&lt;br/&gt;&lt;b&gt;Toimiala:&lt;/b&gt; Tekoälyn integrointi kliinisiin kuvantamistyönkulkuihin; Lääketieteellinen kuvantaminen ja terveydenhuollon IT&lt;br/&gt;&lt;b&gt;Sävy:&lt;/b&gt; Negatiivinen&lt;br/&gt;&lt;br/&gt;Suuret terveydenhuollon organisaatiot alkavat kehittää tekoälytyökaluja sisäisesti sen sijaan, että ostaisivat niitä terveystek-startup-yrityksiltä. Trendi viittaa siihen, että organisaatiot haluavat säästää kustannuksissa ja säilyttää kontrollin tekoälyistaan. Tämä kehitys voi heikentää pienempiä terveystech-startup-yrityksiä, joiden liiketoiminta perustuu valmiin AI-ratkaisujen myyntiin.</description>
-      <guid>https://endpoints.news/healthcare-organizations-are-increasingly-building-their-own-ai-tools/</guid>
-    </item>
-    <item>
-      <title>Voittiko tekoäly todella lääkärit diagnoosissa?</title>
-      <link>https://www.statnews.com/2026/05/05/did-ai-really-beat-doctors-at-diagnosis-health-tech/?utm_campaign=rss</link>
-      <description>&lt;b&gt;Yhtiö:&lt;/b&gt; Aiforia Technologies Oyj&lt;br/&gt;&lt;b&gt;Toimiala:&lt;/b&gt; Tekoälyavusteinen digitaalinen patologia ja lääketieteellinen kuvantaminen; tekoälyn integrointi kliinisiin kuvantamistyönkulkuihin&lt;br/&gt;&lt;b&gt;Sävy:&lt;/b&gt; Neutraali&lt;br/&gt;&lt;br/&gt;Uutinen käsittelee korkean profiilin tutkimusta tekoälyn diagnostisista kyvyistä verrattuna lääkärien suorituskykyyn. Aihe on suoraan relevantti AI-pohjaisten diagnoosiratkaisujen kehittäjille terveydenhoidon alalla, erityisesti kliiniseen kuvantamiseen ja patologian analyysiin keskittyvien yritysten näkökulmasta.</description>
-      <guid>https://www.statnews.com/2026/05/05/did-ai-really-beat-doctors-at-diagnosis-health-tech/?utm_campaign=rss</guid>
+      <title>Kun hyvän tekoälyn tie on täynnä huonoa dataa</title>
+      <link>https://www.statnews.com/2026/05/06/when-path-good-ai-littered-with-bad-data-ai-prognosis/?utm_campaign=rss</link>
+      <description>&lt;b&gt;Yhtiö:&lt;/b&gt; Aiforia Technologies Oyj&lt;br/&gt;&lt;b&gt;Toimiala:&lt;/b&gt; Tekoälyavusteinen digitaalinen patologia; Lääketieteellinen kuvantaminen ja terveydenhuollon IT - tekoälyn integrointi kliinisiin kuvantamistyönkulkuihin&lt;br/&gt;&lt;b&gt;Sävy:&lt;/b&gt; Neutraali&lt;br/&gt;&lt;br/&gt;Uutinen käsittelee keskeistä haasteita tekoälymalleista terveydenhuollossa - erityisesti sitä, millaista terveystietoa tarvitaan hyödyllisten AI-mallien kouluttamiseen. Artikkeli nostaa esiin datan laadun kriittisen merkityksen AI-sovelluksille, mikä on suoraan relevantti tekoälypohjaisille terveydenhoidon ratkaisuille, kuten digitaalisen patologian sovelluksille.</description>
+      <guid>https://www.statnews.com/2026/05/06/when-path-good-ai-littered-with-bad-data-ai-prognosis/?utm_campaign=rss</guid>
     </item>
   </channel>
 </rss>
