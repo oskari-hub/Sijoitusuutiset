@@ -5,60 +5,18 @@
     <link>https://github.com</link>
     <description>Automaattisesti suodatetut ja analysoidut sijoitusuutiset</description>
     <language>fi</language>
-    <lastBuildDate>Wed, 26 Aug 2026 03:59:28 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 13:59:47 +0000</lastBuildDate>
     <item>
-      <title>FDA lupaa uutta tekoälyn sääntelyohjausta ja päivityksiä Epic-konferenssista</title>
-      <link>https://www.statnews.com/2026/08/25/fda-promises-new-ai-guidance-and-epic-ugm-updates/?utm_campaign=rss</link>
-      <description>&lt;b&gt;Yhtiö:&lt;/b&gt; Aiforia Technologies Oyj&lt;br/&gt;&lt;b&gt;Toimiala:&lt;/b&gt; Tekoälyavusteinen digitaalinen patologia; Lääketieteellinen kuvantaminen ja terveydenhuollon IT&lt;br/&gt;&lt;b&gt;Sävy:&lt;/b&gt; Positiivinen&lt;br/&gt;&lt;br/&gt;Uutinen käsittelee FDA:n suunnitelmia generatiivisella tekoälyllä toimivien lääketieteellisten laitteiden sääntelylle. Uutiset koskevat myös Epic-yhtiön käyttäjäkonferenssin päivityksiä. Sääntelyohjauksen selkiintyminen voi vaikuttaa kliinisiin tekoälysovelluksiin, joita Aiforia kehittää digitaalisessa patologiassa ja kuvantamisen työnkuluissa.</description>
-      <guid>https://www.statnews.com/2026/08/25/fda-promises-new-ai-guidance-and-epic-ugm-updates/?utm_campaign=rss</guid>
+      <title>Yleistettävä multiple-instance learning laskennallisessa patologiassa - Nature</title>
+      <link>https://news.google.com/rss/articles/CBMiX0FVX3lxTFBrVmlyaTB2U2piZ0djMjY1M2tqT2h4OVVuMWZydWZUS21vTldMN01IWW9LRS1GSldCVE9pSDZ3T2pvaktDRzBFa25EcG1TOGtxTDBlZWFSUXpKQnl4OTVj?oc=5</link>
+      <description>&lt;b&gt;Yhtiö:&lt;/b&gt; Aiforia Technologies Oyj&lt;br/&gt;&lt;b&gt;Toimiala:&lt;/b&gt; Tekoälyavusteinen digitaalinen patologia&lt;br/&gt;&lt;b&gt;Sävy:&lt;/b&gt; Positiivinen&lt;br/&gt;&lt;br/&gt;Uutinen käsittelee tekoälyyn perustuvaa multiple-instance learning -tekniikkaa laskennallisessa patologiassa, joka on julkaistu Nature-lehdessä. Teknologia mahdollistaa syväoppimismallien kehittämisen histologisten kudosnäytteiden analyysiin ja voi parantaa patologian työnkulkuja. Tämä on suoraan relevantti Aiforia Technologiesille, joka kehittää tekoälyavusteisia ratkaisuja digitaalisen patologian sovelluksille.</description>
+      <guid>https://news.google.com/rss/articles/CBMiX0FVX3lxTFBrVmlyaTB2U2piZ0djMjY1M2tqT2h4OVVuMWZydWZUS21vTldMN01IWW9LRS1GSldCVE9pSDZ3T2pvaktDRzBFa25EcG1TOGtxTDBlZWFSUXpKQnl4OTVj?oc=5</guid>
     </item>
     <item>
-      <title>Aiforia ja Stratipath käynnistävät tekoälypohjaisen yhteistyön</title>
-      <link>https://www.kauppalehti.fi/uutiset/a/a68cd37b-2b04-46bd-99fb-e6717f280181?utm_source=rss</link>
-      <description>&lt;b&gt;Yhtiö:&lt;/b&gt; Aiforia Technologies Oyj&lt;br/&gt;&lt;b&gt;Toimiala:&lt;/b&gt; Tekoälyavusteinen digitaalinen patologia: syväoppimismallit histologisten kudosnäytteiden analyysiin, tumoreiden luokittelu ja gradeeraus, biomarkkereiden kvantifiointi, CE-IVD-merkityt kliiniset AI-sovellukset, patologian työnkulkujen automatisointi&lt;br/&gt;&lt;b&gt;Sävy:&lt;/b&gt; Positiivinen&lt;br/&gt;&lt;br/&gt;Aiforia Technologies ja Stratipath aloittavat strategisen yhteistyön, jossa Stratipathin rintasyöpäsovellus integroidaan Aiforian alustalle. Yhteistyö laajentaa Aiforian kykyä tarjota tekoälyavusteisia ratkaisuja digitaalisen patologian alalla, erityisesti rintasyöpäseulonnassa ja -diagnostiikassa.</description>
-      <guid>https://www.kauppalehti.fi/uutiset/a/a68cd37b-2b04-46bd-99fb-e6717f280181?utm_source=rss</guid>
-    </item>
-    <item>
-      <title>Canatu uudistaa strategian ja käynnistää muutosneuvottelut</title>
-      <link>https://www.kauppalehti.fi/uutiset/a/93698f29-6deb-4f85-bea2-91b09bb41486?utm_source=rss</link>
-      <description>&lt;b&gt;Yhtiö:&lt;/b&gt; Canatu&lt;br/&gt;&lt;b&gt;Toimiala:&lt;/b&gt; Pitkävaikutteisten injektioiden lääkeaineen vapautumisen hallinta&lt;br/&gt;&lt;b&gt;Sävy:&lt;/b&gt; Neutraali&lt;br/&gt;&lt;br/&gt;Canatu asettaa uudeksi tavoitteeksi sadan miljoonan euron liikevaihdon vuonna 2030. Yhtiö käynnistää muutosneuvottelut strategiansa uudistamiseen liittyen. Kannattavuusmittari on poistettu tavoitteista.</description>
-      <guid>https://www.kauppalehti.fi/uutiset/a/93698f29-6deb-4f85-bea2-91b09bb41486?utm_source=rss</guid>
-    </item>
-    <item>
-      <title>Pörssin pienyhtiöissä kytee nyt jättipotti – Nämä osakkeet ovat ostajien tähtäimessä</title>
-      <link>https://www.kauppalehti.fi/uutiset/a/ac664ef2-6c88-42e5-8dc1-caf34f43d1d1?utm_source=rss</link>
-      <description>&lt;b&gt;Yhtiö:&lt;/b&gt; Toimiala&lt;br/&gt;&lt;b&gt;Toimiala:&lt;/b&gt; Lääketieteellinen kuvantaminen ja terveydenhuollon IT; Tekoälyavusteinen digitaalinen patologia; Röntgenkuvantaminen ja ilmaisinteknologia&lt;br/&gt;&lt;b&gt;Sävy:&lt;/b&gt; Neutraali&lt;br/&gt;&lt;br/&gt;Uutinen käsittelee pörssin pienyhtiöiden arvonalentumista taloussuhdanteen ja tekoälyn disruptioriski johtuen. Pääomasijoittajat ja teolliset kilpailijat näkevät tässä ostomahdollisuuden ennen markkinoiden käännettä. Uutinen on relevantti listalla oleville terveystech- ja medtech-yhtiöille, jotka ovat pienyhtiöitä ja joihin kohteena voi kohdistua yritysostointressejä.</description>
-      <guid>https://www.kauppalehti.fi/uutiset/a/ac664ef2-6c88-42e5-8dc1-caf34f43d1d1?utm_source=rss</guid>
-    </item>
-    <item>
-      <title>Aiforia Technologies ja Stratipath solmivat syöpäalustan kumppanuussopimuksen</title>
-      <link>https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQzFtT20wdWNFVHpMdWxHNkZUVnVtVTlLaVJQZ3MyUW9hVlNNbkdNTV81TmhsTFdZYVpsaldHMDcxejhnQlFtSnVUdXJkQlhsZ2tNUlhSVkJScWlvbVRzbVY2ZVBWWEo4YXN4S1JodFdRNVIyMkxwTDhmVkdOYmFwNi1jWjdjdGhVcUxEMTYtUWJWaVRreW9GNDRuSEJrQmJHMG5pTlpTdFo2UUhuc0I0Y1cwQ0l3SVBRYnNEa0xBRFg?oc=5</link>
-      <description>&lt;b&gt;Yhtiö:&lt;/b&gt; Aiforia Technologies Oyj&lt;br/&gt;&lt;b&gt;Toimiala:&lt;/b&gt; Tekoälyavusteinen digitaalinen patologia&lt;br/&gt;&lt;b&gt;Sävy:&lt;/b&gt; Positiivinen&lt;br/&gt;&lt;br/&gt;Aiforia Technologies on solminut kumppanuussopimuksen Stratipathiin liittyen syöpäalustan kehittämiseen. Sopimus yhdistää Aifiorian tekoälyavusteisen digitaalisen patologian osaamisen Stratipathiin. Kumppanuus laajentaa Aifiorian soveltamisaloja kliinisessä patologiassa.</description>
-      <guid>https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQzFtT20wdWNFVHpMdWxHNkZUVnVtVTlLaVJQZ3MyUW9hVlNNbkdNTV81TmhsTFdZYVpsaldHMDcxejhnQlFtSnVUdXJkQlhsZ2tNUlhSVkJScWlvbVRzbVY2ZVBWWEo4YXN4S1JodFdRNVIyMkxwTDhmVkdOYmFwNi1jWjdjdGhVcUxEMTYtUWJWaVRreW9GNDRuSEJrQmJHMG5pTlpTdFo2UUhuc0I0Y1cwQ0l3SVBRYnNEa0xBRFg?oc=5</guid>
-    </item>
-    <item>
-      <title>Canatu uudistaa strategian ja käynnistää muutosneuvottelut</title>
-      <link>https://news.google.com/rss/articles/CBMifkFVX3lxTE04Nmo4QzNVd1NtV2FUd0ZJY19jN2VGTXJnQjRXSnFIa09YTVhuTmIySjNsRFZyZDYwaEpaN01RNnBPM2dILXppVko5Z25iT2w3WXJUWEFLUGloNDhaZ0w4aGEybG04eW4yT2RIMTFtaGdpU1NWUmpOSUJidW9fQQ?oc=5</link>
-      <description>&lt;b&gt;Yhtiö:&lt;/b&gt; Canatu&lt;br/&gt;&lt;b&gt;Toimiala:&lt;/b&gt; Pitkävaikutteisten injektioiden lääkeaineen vapautumisen hallinta&lt;br/&gt;&lt;b&gt;Sävy:&lt;/b&gt; Negatiivinen&lt;br/&gt;&lt;br/&gt;Canatu käynnistää strategisen uudistamisen ja muutosneuvottelut. Uutinen viittaa merkittäviin muutoksiin yhtiön toiminnassa ja strategiassa. Muutosneuvottelut saattavat koskea henkilöstöä ja organisaation rakennetta.</description>
-      <guid>https://news.google.com/rss/articles/CBMifkFVX3lxTE04Nmo4QzNVd1NtV2FUd0ZJY19jN2VGTXJnQjRXSnFIa09YTVhuTmIySjNsRFZyZDYwaEpaN01RNnBPM2dILXppVko5Z25iT2w3WXJUWEFLUGloNDhaZ0w4aGEybG04eW4yT2RIMTFtaGdpU1NWUmpOSUJidW9fQQ?oc=5</guid>
-    </item>
-    <item>
-      <title>Canatu H1'26: Terävämpi fokus uudella strategialla</title>
-      <link>https://news.google.com/rss/articles/CBMiigFBVV95cUxOU25tbnoyS2xGd05kNjpENlBMVDlmQjBUVFg0UEtjRDV6QmdSd1FPaTVla29zT3ZZcTBkZTNWYklZVGRibHk4V0w4TnlNNlpFcVhPeDIwT2ZTVFg4X1czWi11UUNJenVlLW1rWWdHdHRyTkdlQmJlNlBrUVVLVUtmTmZTSmFKX1BwdkE?oc=5</link>
-      <description>&lt;b&gt;Yhtiö:&lt;/b&gt; Canatu&lt;br/&gt;&lt;b&gt;Toimiala:&lt;/b&gt; Pitkävaikutteisten injektioiden lääkeaineen vapautumisen hallinta&lt;br/&gt;&lt;b&gt;Sävy:&lt;/b&gt; Positiivinen&lt;br/&gt;&lt;br/&gt;Uutinen käsittelee Canatu Oyj:n puolivuotistuloksia ja uutta strategiaa. Yhtiö on keskittänyt toimintojaan ja selkeyttänyt strategiaansa. Uudistus näyttää olevan suunnattu liiketoiminnan tehostamiseen ja fokukseen.</description>
-      <guid>https://news.google.com/rss/articles/CBMiigFBVV95cUxOU25tbnoyS2xGd05kNjpENlBMVDlmQjBUVFg0UEtjRDV6QmdSd1FPaTVla29zT3ZZcTBkZTNWYklZVGRibHk4V0w4TnlNNlpFcVhPeDIwT2ZTVFg4X1czWi11UUNJenVlLW1rWWdHdHRyTkdlQmJlNlBrUVVLVUtmTmZTSmFKX1BwdkE?oc=5</guid>
-    </item>
-    <item>
-      <title>Canatu uudistaa strategiaansa ja käynnistää muutosneuvottelut</title>
-      <link>https://news.google.com/rss/articles/CBMidEFVX3lxTE1VckJ3WDRIUWNNaHNhaWNndlR2TGhwMXpubUFadkpkNVo1RTVobVNKUHpMbFFoWkJYQm96N0c4OS0zTi1uUTk2Wkl6WHZrTHAzU3VXLW04NDhvcWtDUUd5X25Kd1R4OWxIZWdBdTA3UkJmakNH?oc=5</link>
-      <description>&lt;b&gt;Yhtiö:&lt;/b&gt; Canatu&lt;br/&gt;&lt;b&gt;Toimiala:&lt;/b&gt; Pitkävaikutteisten injektioiden lääkeaineen vapautumisen hallinta&lt;br/&gt;&lt;b&gt;Sävy:&lt;/b&gt; Neutraali&lt;br/&gt;&lt;br/&gt;Canatu käynnistää strategisen uudistuksen ja muutosneuvottelut. Uutinen liittyy yhtiön liiketoiminnan suuntaa koskeviin muutoksiin ja organisaation uudelleenjärjestelyyn. Tämä voi vaikuttaa yhtiön lääkeaineen vapautumisen hallintateknologioiden kehitykseen ja markkinointiin.</description>
-      <guid>https://news.google.com/rss/articles/CBMidEFVX3lxTE1VckJ3WDRIUWNNaHNhaWNndlR2TGhwMXpubUFadkpkNVo1RTVobVNKUHpMbFFoWkJYQm96N0c4OS0zTi1uUTk2Wkl6WHZrTHAzU3VXLW04NDhvcWtDUUd5X25Kd1R4OWxIZWdBdTA3UkJmakNH?oc=5</guid>
-    </item>
-    <item>
-      <title>Aiforia ja Stratipath käynnistävät tekoälypohjaisen yhteistyön</title>
-      <link>https://news.google.com/rss/articles/CBMifkFVX3lxTE5sRnNLOWR5bkU0dUJOQVVuaC1kYm80akFiU0lYUTB2RUxROFgwNVU4NHRGb1ZQcTJHd3dQUlJaQm5oQmExMVNTdVdTdUJDM0x3MlhRTmJiNjJCTGttMW96cTdzVnVsbkxfQUdBWnpTQnJpS09ZbGdpcEx0WU00UQ?oc=5</link>
-      <description>&lt;b&gt;Yhtiö:&lt;/b&gt; Aiforia Technologies Oyj&lt;br/&gt;&lt;b&gt;Toimiala:&lt;/b&gt; Tekoälyavusteinen digitaalinen patologia ja lääketieteellinen kuvantaminen&lt;br/&gt;&lt;b&gt;Sävy:&lt;/b&gt; Positiivinen&lt;br/&gt;&lt;br/&gt;Aiforia Technologies ja Stratipath aloittavat yhteistyön tekoälypohjaisissa ratkaisuissa. Yhteistyö todennäköisesti liittyy digitaalisen patologian ja AI-pohjaisten kuvantamistyönkulkujen kehittämiseen. Uutinen osoittaa Aiforialla olevan kaupallisia kumppanuuksia sen kliinisten sovelluksien laajentamiseksi.</description>
-      <guid>https://news.google.com/rss/articles/CBMifkFVX3lxTE5sRnNLOWR5bkU0dUJOQVVuaC1kYm80akFiU0lYUTB2RUxROFgwNVU4NHRGb1ZQcTJHd3dQUlJaQm5oQmExMVNTdVdTdUJDM0x3MlhRTmJiNjJCTGttMW96cTdzVnVsbkxfQUdBWnpTQnJpS09ZbGdpcEx0WU00UQ?oc=5</guid>
+      <title>Canatu haluaa kasvaa 300 miljoonan euron tuotebisnekseksi</title>
+      <link>https://news.google.com/rss/articles/CBMipAFBVV95cUxQNmxXZ2dEZHRDMEJPZFNIdGNKcktCdHFOSW91T092a3RrN3pTdTZwemZOWUF0Rlk3TnVCZVVSUEI1Q0FJeFlZTDVkSVdSaGptZVlaeVB0YlRhdldPYW1pazdnZFZmdWJkeHhGekdGNWlLQ05xS2J6ZnBoTFpXaTNfZnppeEo3YllkQzZXTFMweDc5cWpsU3E3VGJYRk9yU0hnNWtmOA?oc=5</link>
+      <description>&lt;b&gt;Yhtiö:&lt;/b&gt; Canatu&lt;br/&gt;&lt;b&gt;Toimiala:&lt;/b&gt; Pitkävaikutteisten injektioiden lääkeaineen vapautumisen hallinta&lt;br/&gt;&lt;b&gt;Sävy:&lt;/b&gt; Positiivinen&lt;br/&gt;&lt;br/&gt;Canatu, suomalainen nanoteknologiayritys, asettaa tavoitteekseen kasvaa 300 miljoonan euron tuotebisnekseksi. Uutinen käsittelee yhtiön kasvuambitioita ja strategiaa. Canatu on tunnettu atomitason kerrostus (ALD) -teknologiastaan, jota voidaan hyödyntää pitkävaikutteisten injektioiden lääkeaineen vapautumisen hallinnassa.</description>
+      <guid>https://news.google.com/rss/articles/CBMipAFBVV95cUxQNmxXZ2dEZHRDMEJPZFNIdGNKcktCdHFOSW91T092a3RrN3pTdTZwemZOWUF0Rlk3TnVCZVVSUEI1Q0FJeFlZTDVkSVdSaGptZVlaeVB0YlRhdldPYW1pazdnZFZmdWJkeHhGekdGNWlLQ05xS2J6ZnBoTFpXaTNfZnppeEo3YllkQzZXTFMweDc5cWpsU3E3VGJYRk9yU0hnNWtmOA?oc=5</guid>
     </item>
   </channel>
 </rss>
